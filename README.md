@@ -2,49 +2,48 @@
 
 # Twitter Tweets EDA
 
-## Overview
-This project performs **Exploratory Data Analysis (EDA)** on a dataset of Twitter tweets to uncover insights related to tweet categories, their frequency, and user engagement (likes and reposts).
+This repository contains an exploratory data analysis (EDA) of Twitter tweets, focusing on identifying trends across different categories based on engagement metrics like likes and reposts.
 
 ## Dataset
-The dataset consists of Twitter tweets classified into various categories, including Food, Culture, Health, Music, and others. Each tweet contains metadata such as likes, reposts, and category tags.
+The dataset consists of tweets categorized into various topics, including food, culture, health, and music. The data is analyzed to extract insights about the most discussed topics and their engagement levels.
 
-## Objective
-- Identify which categories are most frequently tweeted.
-- Analyze average likes and reposts for different categories.
-- Determine which topics generate the most engagement.
+## Files
+- `Twitter_Analysis.csv` - The dataset containing Twitter tweets.
+- `SocialMediaDataAnalysis.ipynb` - Jupyter Notebook containing the complete exploratory data analysis.
 
-## Methodology
-1. **Data Cleaning**: Removed missing or irrelevant data.
-2. **Category-wise Analysis**: Counted the number of tweets in each category.
-3. **Engagement Metrics**: Calculated the average likes and reposts per category.
-4. **Visualization**: Used plots to represent key findings.
+## Analysis Overview
+1. **Category-wise Tweet Count**: The most discussed topics on Twitter are **Food and Culture**, which have the highest number of tweets.
+2. **Engagement Analysis**:
+   - **Average Likes & Reposts**: While Food and Culture dominate in numbers, engagement levels (likes and reposts) are higher in categories like **Health and Music**.
+   - **Food-related tweets** receive substantial attention but do not consistently rank among the most liked or reshared topics.
 
-## Key Insights
-- **Most Tweeted Categories**: The highest number of tweets belonged to the **Food & Culture** category.
-- **Engagement Trends**:
-  - Although "Food & Culture" had the most tweets, its engagement in terms of likes and reposts was moderate.
-  - Categories like **Health** and **Music** had fewer tweets but received **higher average likes and reposts**, indicating strong audience interaction.
+## Conclusion
+- **Food and Culture are the most frequently discussed topics**, indicating a strong presence in conversations.
+- **Engagement is more prominent in Health and Music-related tweets**, suggesting that while these topics have fewer tweets, they generate more user interaction.
+- **This analysis can help social media strategists focus on both volume and engagement when crafting content for Twitter.**
 
-## Usage
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/twitter-tweets-eda.git
+## How to Run the Analysis
+1. Clone the repository:
+   ```sh
+   git clone <repo-url>
    ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+2. Navigate to the directory:
+   ```sh
+   cd twitter-tweets-eda
    ```
-3. Run the analysis:
-   ```bash
-   python analysis.py
+3. Open Jupyter Notebook:
+   ```sh
+   SocialMediaDataAnalysis.ipynb
    ```
 
 ## Future Work
-- Expand the dataset to include more tweets and categories.
-- Perform sentiment analysis on tweets to understand emotional trends.
-- Explore temporal trends (e.g., how engagement changes over time).
+- Further breakdown of engagement trends across subcategories.
+- Sentiment analysis to understand user reactions better.
+- Time-series analysis to observe trends over different time periods.
 
-## Contributing
-Feel free to submit pull requests for improvements or new features!
+## Contributors
+- **Divy Jindal** - Conducted the analysis and prepared the report.
+
+
 
 
